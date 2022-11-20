@@ -5,12 +5,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vh;
-    height: 100vh
+    width: 100%;
+    min-height:1400px;
 }
 .sun {
     position: absolute;
-    top: 50%;
+    top: 670px;
     left: 750px;
     transform: translate(-50%, -50%);
 }
@@ -21,7 +21,7 @@ body {
 .mercury{
     width: 20px;
     position: absolute;
-    top:48%;
+    top:660px;
     left:740px;
     
     z-index: 1;
@@ -39,7 +39,7 @@ body {
 .venus {
     width: 35px;
     position: absolute;
-    top: 48%;
+    top: 650px;
     left: 735px;
     transform: translate(-50%, -50%);
     z-index:1;
@@ -58,7 +58,7 @@ body {
 .earth{
     width:40px;
     position:absolute;
-    top:47%;
+    top:645px;
     left:730px;
     transform: translate(-50%, -50%);
     animation: orbit3 18s linear infinite}
@@ -75,7 +75,7 @@ body {
 .mars {
     width: 25px;
     position: absolute;
-    top: 49%;
+    top: 660px;
     left: 735px;
     transform: translate(-50%, -50%);
     animation: orbit4 35s linear infinite
@@ -94,7 +94,7 @@ body {
 .jupiter{
     width: 80px;
     position: absolute;
-    top: 46%;
+    top: 630px;
     left: 710px;
     transform: translate(-50%, -50%);
     animation: orbit5 215s linear infinite
@@ -112,7 +112,7 @@ body {
 .saturn {
     width: 75px;
     position: absolute;
-    top: 47%;
+    top: 635px;
     left: 710px;
     transform: translate(-50%, -50%);
     animation: orbit6 540s linear infinite
@@ -130,7 +130,7 @@ body {
 .uranus{
     width: 60px;
         position: absolute;
-        top: 48%;
+        top: 640px;
         left: 720px;
         transform: translate(-50%, -50%);
         animation: orbit7 1535s linear infinite
@@ -148,7 +148,7 @@ body {
 .neptune{
     width: 60px;
         position: absolute;
-        top: 48%;
+        top: 640px;
         left: 720px;
         transform: translate(-50%, -50%);
         animation: orbit8 3011s linear infinite
@@ -167,7 +167,7 @@ body {
     border-radius: 50%;
     border: 2px dotted red;
     position: absolute;
-    top:50%;
+    top:670px;
     left:750px;
     transform: translate(-50%, -50%);
     z-index:-1;
